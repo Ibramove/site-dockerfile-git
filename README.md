@@ -1,8 +1,3 @@
-site-dockerfile-git/
-├─ index.html
-└─ Dockerfile
-
-
 #Étapes locales (Git + GitHub)
 
 # 1) Créer le dossier projet
@@ -38,8 +33,10 @@ oc expose service site-github-dockerfile
 
 # 4) Récupérer l’URL et tester
 oc get route
-# Exemple de test (remplacez <URL>):
+
 curl http://<URL>
+
+Déploiement réussi  Bienvenue sur ma page !
 
 <img width="3042" height="618" alt="image" src="https://github.com/user-attachments/assets/bde36293-f2ae-4b1e-86a2-bcce4dd23eb3" />
 
